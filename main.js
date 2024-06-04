@@ -56,8 +56,8 @@ function quotient(num1, num2) {
   return num1 / num2;
 }
 
-const num1 = prompt("Введите первое число:");
-const num2 = prompt("Введите второе число:");
+const num1 = parseFloat(prompt("Введите первое число"));
+const num2 = parseFloat(prompt("Введите второе число"));
 
 console.log(`Сумма: ${sum(num1, num2)}`);
 console.log(`Разность: ${difference(num1, num2)}`);
